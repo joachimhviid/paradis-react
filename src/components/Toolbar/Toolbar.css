@@ -1,0 +1,44 @@
+.menu {
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: blue;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    align-items: center;
+}
+
+.menu-item {
+    align-items: center;
+}
+
+#menu-cup {
+    height: 38px;
+    width: 42px;
+}
+
+#menu-shop {
+    height: 38px;
+    width: 42px;
+}
+
+#menu-bell {
+    height: 36px;
+    width: 42px;
+}
+
+#menu-cart {
+    height: 38px;
+    width: 42px;
+}
+
+#menu-info {
+    height: 38px;
+    width: 38px;
+}
