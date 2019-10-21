@@ -1,0 +1,61 @@
+/** Imports **/
+
+@import url("reset.css");
+@import url("grid.css");
+
+
+/** Fonts **/
+
+@import url("../assets/fonts/OpenSans/OpenSans.css");
+
+
+/** Global **/
+
+html, div {
+	box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+	font-family: OpenSans;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+
+/** Main **/
+
+
+
+/** Media Queries **/
+
+/* Smaller than desktop */
+@media (max-width: 980px) {
+	
+}
+
+/* Smaller than tablet */
+@media (max-width: 750px) {
+	
+}
+
+/* Smaller than mobile */
+@media (max-width: 400px) {
+	
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	
+}
+
+/* Larger than desktop */
+@media (min-width: 980px) {
+	
+}
+
