@@ -16,7 +16,7 @@ html, div {
 }
 
 body {
-    background: #FFFFFF;
+    background: #4c5466;
 	font-family: OpenSans;
 	font-weight: 400;
 	font-size: 16px;
@@ -24,7 +24,17 @@ body {
 
 
 /** Main **/
+.site-content {
+	margin-left: 120px;
+}
 
+.hero-img {
+	
+}
+
+.hero-img img{
+	width: 100%;
+}
 
 
 /** Media Queries **/
