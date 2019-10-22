@@ -17,6 +17,9 @@ function App() {
               <h1 className="heading">VELKOMMEN TIL PARADIS</h1>
               <p>Elsker du også is? Så er du kommet til det rette sted. Hos Paradis lever og ånder vi nemlig for at give dig en fantastisk is-oplevelse. Vi er din lokale ismand – for selvom du ser navnet Paradis mange steder i Danmark, så er vi en samling is-passionerede mennesker der selvstændigt har hver vores lokale Paradis butik.</p>
             </div>
+            <div className="col-xs-6">
+              <a href="#" className="mainbutton"></a>
+            </div>
           </div>
         </div>
       </div>
