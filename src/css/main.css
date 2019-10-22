@@ -7,6 +7,9 @@
 /** Fonts **/
 
 @import url("../assets/fonts/OpenSans/OpenSans.css");
+@import url("../assets/fonts/SketchBlockBold/SketchBlockBold.css");
+@import url("../assets/fonts/Lato/Lato.css");
+@import url("../assets/fonts/AracneCondensed/AracneCondensed.css");
 
 
 /** Global **/
@@ -17,7 +20,7 @@ html, div {
 
 body {
     background: #4c5466;
-	font-family: OpenSans;
+	font-family: Lato;
 	font-weight: 400;
 	font-size: 16px;
 }
@@ -29,13 +32,44 @@ body {
 }
 
 .hero-img {
-	
+	position: relative;
+	z-index: 2;
+	height: 600px;
+	overflow: hidden;
 }
 
 .hero-img img{
 	width: 100%;
 }
 
+.cream {
+	background: #f6f2ec;
+}
+
+.welcome-box {
+	position: relative;
+	z-index: 5;
+	bottom: 50px;
+	background: #fff;
+	padding: 3vw;
+}
+
+h1.heading {
+	font-family: SketchBlockBold;
+	font-weight: 700;
+	font-size: 78px;
+	margin: 12px 0;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+li p {
+	font-family: AracneCondensed;
+	font-size: 18px;
+}
 
 /** Media Queries **/
 

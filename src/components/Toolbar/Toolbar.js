@@ -14,27 +14,27 @@ const toolbar = props => (
         <div className="menu-wrapper">
             <ul className="menu-item-list">
                 <li className="menu-item">
-                    <img src={Logo} alt="Paradis isvaffel logo"/>
+                    <img src={Logo} alt="Paradis isvaffel logo" className="logo"/>
                 </li>
                 <li className="menu-item">
                     <img src={Cup} alt="Isbæger" id="menu-cup"/> 
-                    <p>Item 1</p>
+                    <p>Produkter</p>
                 </li>
                 <li className="menu-item">
                     <img src={Shop} alt="Paradis butik" id="menu-shop"/>
-                    <p>Item 2</p>
+                    <p>Find butik</p>
                 </li>
                 <li className="menu-item">
                     <img src={Bell} alt="Paradis klokke" id="menu-bell"/>
-                    <p>Item 3</p>
+                    <p>Catering</p>
                 </li>
                 <li className="menu-item">
                     <img src={Cart} alt="Paradis vogn" id="menu-cart"/>
-                    <p>Item 4</p>
+                    <p>Bestilling</p>
                 </li>
                 <li className="menu-item">
                     <img src={Info} alt="Paradis info" id="menu-info"/>
-                    <p>Item 5</p>
+                    <p>Om paradis</p>
                 </li>
             </ul>
         </div>
