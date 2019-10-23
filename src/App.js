@@ -20,7 +20,6 @@ function App() {
             <div className="col-xs-6">
               <a href="#" className="mainbutton"></a>
             </div>
-            <div></div>
           </div>
         </div>
       </div>
