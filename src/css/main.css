@@ -72,6 +72,32 @@ li p {
 	font-size: 18px;
 }
 
+.mainbutton {
+	background-image: url('../assets/mbutton.svg');
+	font-size: 24px;
+	font-family: AracneCondensed;
+	text-decoration: none;
+	color: #fff;
+	padding: 1em 1.6em;
+	background-size: 100% 700%;
+	position: relative;
+	margin: 10px 20px;
+}
+
+.mainbutton-red {
+	background-position: 0% 0%;
+}
+
+.mainbutton-blue {
+	background-position: 0% 33.333%;
+}
+
+.button-wrapper {
+	display: flex;
+	align-items: center;
+	min-height: 300px;
+}
+
 /** Media Queries **/
 
 /* Smaller than desktop */
