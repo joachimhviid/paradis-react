@@ -5,6 +5,7 @@ import HeroImg from './assets/paradis-hero.jpg';
 import EcoBanner from './assets/økologi-banner.jpg';
 import InstagramScribble from './assets/instagram-scribble.svg';
 import FacebookScribble from './assets/facebook-scribble.svg';
+import FrontIngredient from './assets/ingredienser.jpg';
 
 function App() {
   return (
@@ -49,6 +50,23 @@ function App() {
                 </a>
               </div>
             </div>
+        </div>
+        <div className="container-full" style={{marginTop: '100px'}}>
+          <div className="row text-row">
+            <div className="col-xs-5">
+              <img src={FrontIngredient} alt="ingredients for ice cream" className="ingredient-banner"/>
+            </div>
+            <div className="col-xs-7 text-area">
+              <h1 className="heading">VI ANVENDER KUN NØJE UDVALGTE RÅVARER</h1>
+              <p>Kun det bedste er godt nok til Paradis is. Derfor rejser vi langt og gør os umage for at finde de bedste råvarer til vores is. <br/><br/></p>
+              <p>Vores is er frisklavet. Derfor står vores passionrede ismestre tidligt op hver morgen for at lave friskrørt is til dig.<br/><br/></p>
+              <p>Vi bruger udelukkende frisk frugt til vores frugt-is. Vi handler vores frugt lokalt for at den er så frisk og fuld af smag som muligt.<br/><br/></p>
+              <p>Vores mere eksotiske råvarer bliver udvalgt med stor omhu fra hele verden: Kakao fra Den Dominikanske Republik, Bourbon vanilje fra Madagaskar, italiensk lakridspulver og italienske pistacie og hasselnødder. Ens for alle vores råvarer er deres fantastiske smag.<br/><br/></p>
+              <p>En stor del af vores råvarer er økologiske. Vores havredrik, mælk, fløde og rørsukker er økologisk og vores kakao og hvide chokolade er både Fair Trade og økologisk certificeret.<br/><br/></p>
+              <p>Hos Paradis har vi is til enhver smag! Du kan vælge mellem mælke is og vi har også veganske varianter – både sorbeter eller is lavet på økologisk havredrik.<br/><br/></p>
+              <p>Velbekomme!</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
