@@ -2,6 +2,9 @@ import React from 'react';
 import './css/main.css';
 import Toolbar from './components/Toolbar/Toolbar';
 import HeroImg from './assets/paradis-hero.jpg';
+import EcoBanner from './assets/økologi-banner.jpg';
+import InstagramScribble from './assets/instagram-scribble.svg';
+import FacebookScribble from './assets/facebook-scribble.svg';
 
 function App() {
   return (
@@ -24,6 +27,28 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="container-full" style={{marginTop: '200px'}}>
+          <div className="row flex-center">
+              <div className="col-xs-6">
+                <div className="some-button-wrapper">
+                  <h3 className="follow-us">FØLG OS PÅ:</h3>
+                  <div className="some-icons">
+                  <a href="#">
+                    <img src={InstagramScribble} alt="instagram stylized icon"/>
+                  </a>
+                  <a href="#">
+                    <img src={FacebookScribble} alt="facebook stylized icon"/>
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-6">
+                <a href="#">
+                  <img src={EcoBanner} alt="Økologi fløde rørsukker" className="about-banner"/>
+                </a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
