@@ -157,7 +157,11 @@ h3 {
 }
 
 .text-area {
-	padding: 2em 2em 2em 0;
+	padding: 2em 2em 2em 2em;
+}
+
+.text-area.merged {
+	padding-left: 0em;
 }
 
 .isdisk {
@@ -167,12 +171,51 @@ h3 {
 	bottom: 50%;
 }
 
-.catering-wrapper {
+.catering-wrapper::before {
+	content: '';
+	background: #fff;
     position: absolute;
     top: 50%;
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.some-post-row {
+	display: flex;
+	margin-top: 100px;
+	padding-bottom: 5vw;
+	.some-post {
+		width: calc(33% - 40px);
+		margin: auto 20px;
+		img {
+			width: 100%;
+			border: 20px solid #fff;
+		}
+	}
+	.center-post {
+		position: relative;
+		top: 5vw;
+	}
+}
+
+footer.container-full {
+	margin-top: 5em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background: #ff0000;
+	display: flex;
+	color: #fff;
+	h4 {
+		font-family: AracneCondensed;
+		font-size: 30px;
+	}
+	li {
+		padding: .5em 0;
+		span {
+			font-weight: bold;
+		}
+	}
 }
 
 /** Media Queries **/

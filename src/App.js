@@ -7,6 +7,9 @@ import InstagramScribble from './assets/instagram-scribble.svg';
 import FacebookScribble from './assets/facebook-scribble.svg';
 import FrontIngredient from './assets/ingredienser.jpg';
 import IsDisk from './assets/isdiske.png';
+import Insta1 from './assets/insta1.jpg';
+import Insta2 from './assets/insta2.jpg';
+import Insta3 from './assets/insta3.jpg';
 
 function App() {
   return (
@@ -57,7 +60,7 @@ function App() {
             <div className="col-xs-5">
               <img src={FrontIngredient} alt="ingredients for ice cream" className="ingredient-banner"/>
             </div>
-            <div className="col-xs-7 text-area">
+            <div className="col-xs-7 text-area merged">
               <h1 className="heading">VI ANVENDER KUN NØJE UDVALGTE RÅVARER</h1>
               <p>Kun det bedste er godt nok til Paradis is. Derfor rejser vi langt og gør os umage for at finde de bedste råvarer til vores is. <br/><br/></p>
               <p>Vores is er frisklavet. Derfor står vores passionrede ismestre tidligt op hver morgen for at lave friskrørt is til dig.<br/><br/></p>
@@ -70,7 +73,7 @@ function App() {
           </div>
         </div>
         <div className="container-full" style={{marginTop: '300px'}}>
-          <div className="row text-row">
+          <div className="row">
             <div className="col-xs-12">
               <div className="catering-wrapper flex-center">
                 <img src={IsDisk} alt="Paradis isdiske catering" className="isdisk"/>
@@ -79,13 +82,66 @@ function App() {
           </div>
           <div className="row text-row">
             <div className="col-xs-12">
-              <div className="flex-center flex-col">
+              <div className="flex-center flex-col text-area">
                 <h1 className="heading">CATERING</h1>
                 <p>Uanset om det er en fødselsdag, et bryllup, en konfirmation eller et firma arrangement, <br/> så vil dine gæster blive begejstret over is fra Paradis.</p>
+                <a href="#" className="mainbutton mainbutton-red" style={{marginTop: '1em'}}>FIND CATERING</a>
               </div>
             </div>
           </div>
         </div>
+        <div className="container-full">
+          <div className="row">
+            <div className="some-post-row">
+              <div className="some-post">
+                  <img src={Insta1} alt="Instagram post image1"/>
+                </div>
+                <div className="some-post center-post">
+                  <img src={Insta2} alt="Instagram post image2"/>
+                </div>
+                <div className="some-post">
+                  <img src={Insta3} alt="Instagram post image3"/>
+                </div>
+            </div>
+          </div>
+        </div>
+        <footer className="container-full">
+          <div className="col-xs-4">
+            <h4>PRODUKTER</h4>
+            <ul>
+              <li>Isvarianter</li>
+              <li>Isdesserter</li>
+              <li>Isbokse</li>
+              <li>Is i bæger og vaffel</li>
+              <li>Shakes og Frappe</li>
+              <li>Varme drikke</li>
+              <li>Plantebaserede is</li>
+              <li>Allergi</li>
+            </ul>
+          </div>
+          <div className="col-xs-4">
+            <h4>OM PARADIS</h4>
+              <ul>
+                <li>Hvem er vi</li>
+                <li>Gavekort</li>
+                <li>Kontakt os</li>
+                <li>Presse</li>
+                <li>Din egen Paradis?</li>
+                <li>Job i Paradis</li>
+              </ul>
+          </div>
+          <div className="col-xs-4">
+            <h4>PARADIS DANMARK A/S</h4>
+              <ul>
+                <li>Vesterbrogade 4A 1. <br/>1620 København V</li>
+                <li><span>Telefon</span> 35 35 79 02</li>
+                <li><span>Telefontid</span> kl. 8.00 - 16.00 (man-fre)</li>
+                <li><span>Email</span> info@paradis-is.dk</li>
+                <li><span>CVR-nr.</span> 30 50 05 04</li>
+                <li>Se åbningstider</li>
+              </ul>
+          </div>
+        </footer>
       </div>
     </div>
   );
