@@ -6,6 +6,7 @@ import EcoBanner from './assets/økologi-banner.jpg';
 import InstagramScribble from './assets/instagram-scribble.svg';
 import FacebookScribble from './assets/facebook-scribble.svg';
 import FrontIngredient from './assets/ingredienser.jpg';
+import IsDisk from './assets/isdiske.png';
 
 function App() {
   return (
@@ -65,6 +66,23 @@ function App() {
               <p>En stor del af vores råvarer er økologiske. Vores havredrik, mælk, fløde og rørsukker er økologisk og vores kakao og hvide chokolade er både Fair Trade og økologisk certificeret.<br/><br/></p>
               <p>Hos Paradis har vi is til enhver smag! Du kan vælge mellem mælke is og vi har også veganske varianter – både sorbeter eller is lavet på økologisk havredrik.<br/><br/></p>
               <p>Velbekomme!</p>
+            </div>
+          </div>
+        </div>
+        <div className="container-full" style={{marginTop: '300px'}}>
+          <div className="row text-row">
+            <div className="col-xs-12">
+              <div className="catering-wrapper flex-center">
+                <img src={IsDisk} alt="Paradis isdiske catering" className="isdisk"/>
+              </div>
+            </div>
+          </div>
+          <div className="row text-row">
+            <div className="col-xs-12">
+              <div className="flex-center flex-col">
+                <h1 className="heading">CATERING</h1>
+                <p>Uanset om det er en fødselsdag, et bryllup, en konfirmation eller et firma arrangement, <br/> så vil dine gæster blive begejstret over is fra Paradis.</p>
+              </div>
             </div>
           </div>
         </div>
