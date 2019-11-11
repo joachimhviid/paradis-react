@@ -1,6 +1,16 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import './css/main.css';
+
+// Components
 import Toolbar from './components/Toolbar/Toolbar';
+
+// Images
 import HeroImg from './assets/paradis-hero.jpg';
 import EcoBanner from './assets/økologi-banner.jpg';
 import InstagramScribble from './assets/instagram-scribble.svg';
@@ -14,7 +24,9 @@ import Insta3 from './assets/insta3.jpg';
 function App() {
   return (
     <div>
-      <Toolbar />
+      <Router>
+        <Toolbar />
+      </Router>
       <div className="site-content">
         <div className="hero-img">
           <img src={HeroImg} alt="Paradis pige billede"/>
