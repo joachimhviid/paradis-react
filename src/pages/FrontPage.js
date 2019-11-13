@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 // Images
 import HeroImg from '../assets/paradis-hero.jpg';
@@ -25,8 +26,8 @@ const FrontPage = () => {
                     </div>
                     <div className="col-xs-6">
                     <div className="button-wrapper">
-                        <a href="#" className="mainbutton mainbutton-red">Find Butik</a>
-                        <a href="#" className="mainbutton mainbutton-blue">Find Produkter</a>
+                        <Link to="/find-butik" className="mainbutton mainbutton-red">Find Butik</Link>
+                        <Link to="/produkter" className="mainbutton mainbutton-blue">Find Produkter</Link>
                     </div>
                     </div>
                 </div>
@@ -37,19 +38,19 @@ const FrontPage = () => {
                         <div className="some-button-wrapper">
                         <h3 className="follow-us">FØLG OS PÅ:</h3>
                         <div className="some-icons">
-                        <a href="#">
+                        <a href="https://www.instagram.com/paradisis/">
                             <img src={InstagramScribble} alt="instagram stylized icon"/>
                         </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/ParadisDanmark/">
                             <img src={FacebookScribble} alt="facebook stylized icon"/>
                         </a>
                         </div>
                         </div>
                     </div>
                     <div className="col-xs-6">
-                        <a href="#">
+                        <Link to="/om-paradis">
                         <img src={EcoBanner} alt="Økologi fløde rørsukker" className="about-banner"/>
-                        </a>
+                        </Link>
                     </div>
                     </div>
                 </div>
@@ -83,7 +84,7 @@ const FrontPage = () => {
                             <div className="flex-center flex-col text-area">
                                 <h1 className="heading">CATERING</h1>
                                 <p>Uanset om det er en fødselsdag, et bryllup, en konfirmation eller et firma arrangement, <br/> så vil dine gæster blive begejstret over is fra Paradis.</p>
-                                <a href="#" className="mainbutton mainbutton-red" style={{marginTop: '1em'}}>FIND CATERING</a>
+                                <Link to="/catering" className="mainbutton mainbutton-red" style={{marginTop: '1em'}}>FIND CATERING</Link>
                             </div>
                         </div>
                     </div>
