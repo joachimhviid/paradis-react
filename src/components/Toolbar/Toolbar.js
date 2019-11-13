@@ -10,7 +10,7 @@ import Bell from '../../assets/paradis-klokke.svg';
 import Info from '../../assets/paradis-info.svg';
 import Cart from '../../assets/paradis-vogn.svg';
 
-const toolbar = props => (
+const toolbar = () => (
         <div className="menu">
             <div className="menu-wrapper">
                 <ul className="menu-item-list">

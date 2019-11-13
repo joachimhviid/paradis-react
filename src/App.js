@@ -9,6 +9,7 @@ import './css/main.css';
 // Components
 import Toolbar from './components/Toolbar/Toolbar';
 import FrontPage from './pages/FrontPage';
+import DinParadisPage from './pages/DinParadisPage';
 import ErrorPage from './pages/ErrorPage';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
             <h2>Catering is here</h2>
           </Route>
           <Route exact path="/bestilling">
-            <h2>Bestilling</h2>
+            <DinParadisPage />
           </Route>
           <Route exact path="/om-paradis">
             <h2>Om paradis</h2>

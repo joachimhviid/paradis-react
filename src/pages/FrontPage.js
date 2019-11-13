@@ -18,7 +18,7 @@ const FrontPage = () => {
                 <div className="hero-img">
                 <img src={HeroImg} alt="Paradis pige billede"/>
                 </div>
-                <div className="container-full cream">
+                <div className="container-full cream-slim">
                 <div className="row">
                     <div className="col-xs-6 welcome-box">
                     <h1 className="heading">VELKOMMEN TIL PARADIS</h1>

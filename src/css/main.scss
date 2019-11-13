@@ -44,7 +44,12 @@ body {
 
 .cream {
 	background: #f6f2ec;
+	display: flex;
+}
+
+.cream-slim {
 	min-height: 300px;
+	background: #f6f2ec;
 }
 
 .welcome-box {
@@ -112,7 +117,9 @@ li p {
 }
 
 h3 {
+	font-family: AracneCondensed;
 	margin-bottom: .8em;
+	font-size: 1.5em;
 }
 
 .some-icons a img{
@@ -121,7 +128,6 @@ h3 {
 }
 
 .follow-us {
-	font-family: AracneCondensed;
 	font-size: 55px;
 	color: #fff;
 	
@@ -134,6 +140,11 @@ h3 {
 	position: relative;
 	bottom: 2em;
 	right: 15px;
+}
+
+.center {
+	align-items: center;
+	text-align: center;
 }
 
 .flex-center {
@@ -216,6 +227,44 @@ footer.container-full {
 			font-weight: bold;
 		}
 	}
+}
+
+.config-container {
+	height: 100%;
+	overflow-y: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.preview {
+	margin-top: 85px;
+	margin-bottom: 85px;
+}
+
+.ingredient-button-wrapper {
+	display: flex;
+	align-items: center;
+	background: #EEE9E2;
+}
+
+.ingredient-button {
+	flex: 1;
+	padding: 6px 3px;
+	button {
+		border: none;
+		padding: 0;
+		background: none;
+		font-family: AracneCondensed;
+		font-size: 1.2em;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.ingredient-toolbar-wrapper {
+	background: #fff;
+	height: 100px;
 }
 
 /** Media Queries **/

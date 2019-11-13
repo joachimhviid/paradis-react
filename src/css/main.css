@@ -38,7 +38,14 @@ body {
 
 .cream {
   background: #f6f2ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cream-slim {
   min-height: 300px;
+  background: #f6f2ec;
 }
 
 .welcome-box {
@@ -115,7 +122,9 @@ li p {
 }
 
 h3 {
+  font-family: AracneCondensed;
   margin-bottom: .8em;
+  font-size: 1.5em;
 }
 
 .some-icons a img {
@@ -124,7 +133,6 @@ h3 {
 }
 
 .follow-us {
-  font-family: AracneCondensed;
   font-size: 55px;
   color: #fff;
 }
@@ -136,6 +144,13 @@ h3 {
   position: relative;
   bottom: 2em;
   right: 15px;
+}
+
+.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .flex-center {
@@ -239,6 +254,57 @@ footer.container-full li {
 
 footer.container-full li span {
   font-weight: bold;
+}
+
+.config-container {
+  height: 100%;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.preview {
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.ingredient-button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #EEE9E2;
+}
+
+.ingredient-button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 6px 3px;
+}
+
+.ingredient-button button {
+  border: none;
+  padding: 0;
+  background: none;
+  font-family: AracneCondensed;
+  font-size: 1.2em;
+}
+
+.ingredient-button button img {
+  width: 100%;
+}
+
+.ingredient-toolbar-wrapper {
+  background: #fff;
+  height: 100px;
 }
 
 /** Media Queries **/
