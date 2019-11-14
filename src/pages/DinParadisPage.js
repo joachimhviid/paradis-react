@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ConfigToolbar from '../components/ConfigToolbar/ConfigToolbar';
+
 // Images
 import VaniljeIs from '../assets/vanilje-is.png';
 import IngredientVanilje from '../assets/ingredient-vanilje.png';
@@ -49,9 +51,7 @@ const DinParadisPage = () => {
                         </button>
                     </div>
                 </div>
-                <div className="ingredient-toolbar-wrapper container-full">
-
-                </div>
+                <ConfigToolbar />
             </div>
         </div>
     )

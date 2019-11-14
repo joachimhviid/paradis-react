@@ -219,7 +219,7 @@ h3 {
 
 .some-post-row .some-post {
   width: calc(33% - 40px);
-  margin: auto 20px;
+  margin: auto 20px 5em;
 }
 
 .some-post-row .some-post img {
@@ -233,7 +233,6 @@ h3 {
 }
 
 footer.container-full {
-  margin-top: 5em;
   padding-top: 4em;
   padding-bottom: 4em;
   background: #ff0000;
@@ -300,11 +299,6 @@ footer.container-full li span {
 
 .ingredient-button button img {
   width: 100%;
-}
-
-.ingredient-toolbar-wrapper {
-  background: #fff;
-  height: 100px;
 }
 
 /** Media Queries **/
