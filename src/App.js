@@ -45,7 +45,7 @@ function App() {
       
       
       <footer className="container-full">
-          <div className="col-xs-4">
+          <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <h4>PRODUKTER</h4>
             <ul>
               <li>Isvarianter</li>
@@ -58,7 +58,7 @@ function App() {
               <li>Allergi</li>
             </ul>
           </div>
-          <div className="col-xs-4">
+          <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <h4>OM PARADIS</h4>
               <ul>
                 <li>Hvem er vi</li>
@@ -69,7 +69,7 @@ function App() {
                 <li>Job i Paradis</li>
               </ul>
           </div>
-          <div className="col-xs-4">
+          <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <h4>PARADIS DANMARK A/S</h4>
               <ul>
                 <li>Vesterbrogade 4A 1. <br/>1620 København V</li>

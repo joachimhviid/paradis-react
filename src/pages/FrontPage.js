@@ -20,11 +20,11 @@ const FrontPage = () => {
                 </div>
                 <div className="container-full cream-slim">
                 <div className="row">
-                    <div className="col-xs-6 welcome-box">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 welcome-box">
                     <h1 className="heading">VELKOMMEN TIL PARADIS</h1>
                     <p>Elsker du også is? Så er du kommet til det rette sted. Hos Paradis lever og ånder vi nemlig for at give dig en fantastisk is-oplevelse. Vi er din lokale ismand – for selvom du ser navnet Paradis mange steder i Danmark, så er vi en samling is-passionerede mennesker der selvstændigt har hver vores lokale Paradis butik.</p>
                     </div>
-                    <div className="col-xs-6">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div className="button-wrapper">
                         <Link to="/find-butik" className="mainbutton mainbutton-red">Find Butik</Link>
                         <Link to="/produkter" className="mainbutton mainbutton-blue">Find Produkter</Link>
@@ -32,9 +32,9 @@ const FrontPage = () => {
                     </div>
                 </div>
                 </div>
-                <div className="container-full" style={{marginTop: '200px'}}>
+                <div className="container-full">
                 <div className="row flex-center">
-                    <div className="col-xs-6">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div className="some-button-wrapper">
                         <h3 className="follow-us">FØLG OS PÅ:</h3>
                         <div className="some-icons">
@@ -47,19 +47,19 @@ const FrontPage = () => {
                         </div>
                         </div>
                     </div>
-                    <div className="col-xs-6">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <Link to="/om-paradis">
                         <img src={EcoBanner} alt="Økologi fløde rørsukker" className="about-banner"/>
                         </Link>
                     </div>
                     </div>
                 </div>
-                <div className="container-full" style={{marginTop: '100px'}}>
-                <div className="row text-row">
-                    <div className="col-xs-5">
+                <div className="container-full">
+                <div className="row text-row presentation-text">
+                    <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                     <img src={FrontIngredient} alt="ingredients for ice cream" className="ingredient-banner"/>
                     </div>
-                        <div className="col-xs-7 text-area merged">
+                        <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-area merged">
                             <h1 className="heading">VI ANVENDER KUN NØJE UDVALGTE RÅVARER</h1>
                             <p>Kun det bedste er godt nok til Paradis is. Derfor rejser vi langt og gør os umage for at finde de bedste råvarer til vores is. <br/><br/></p>
                             <p>Vores is er frisklavet. Derfor står vores passionrede ismestre tidligt op hver morgen for at lave friskrørt is til dig.<br/><br/></p>
@@ -71,7 +71,7 @@ const FrontPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container-full" style={{marginTop: '300px'}}>
+                <div className="container-full">
                     <div className="row">
                         <div className="col-xs-12">
                             <div className="catering-wrapper flex-center">

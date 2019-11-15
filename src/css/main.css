@@ -44,8 +44,12 @@ body {
 }
 
 .cream-slim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 300px;
   background: #f6f2ec;
+  margin-bottom: 200px;
 }
 
 .welcome-box {
@@ -100,14 +104,16 @@ li p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 300px;
+  min-height: 100%;
+  margin-bottom: 50px;
 }
 
 .about-banner {
-  padding: 2.5em 2em;
+  padding: 2.5vw 2vw;
   background: #fff;
   width: 90%;
   float: left;
+  margin-bottom: 100px;
 }
 
 .some-button-wrapper {
@@ -138,12 +144,16 @@ h3 {
 }
 
 .ingredient-banner {
-  padding: 2.5em 2em;
+  padding: 2.5vw 2vw;
   background: #fff;
   width: 100%;
   position: relative;
   bottom: 2em;
   right: 15px;
+}
+
+.presentation-text {
+  margin-bottom: 300px;
 }
 
 .center {
@@ -304,7 +314,122 @@ footer.container-full li span {
 /** Media Queries **/
 /* Smaller than desktop */
 /* Smaller than tablet */
+@media (max-width: 750px) {
+  .not-mobile {
+    display: none;
+  }
+  .site-content {
+    margin-left: 0px;
+    width: 100vw;
+  }
+  .container-full {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero-img img {
+    max-height: 600px;
+    width: auto;
+  }
+  h1.heading {
+    font-size: 2em;
+  }
+  p {
+    font-size: 16px;
+  }
+  .button-wrapper {
+    min-height: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .button-wrapper a {
+    width: 100%;
+  }
+  .cream-slim {
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .text-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flex-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .text-area.merged {
+    padding-left: 2em;
+  }
+  .ingredient-banner {
+    padding-top: 6vw;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+  }
+  .about-banner {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .some-button-wrapper {
+    margin-bottom: 3em;
+  }
+  .some-post-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .some-post-row .some-post {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5vw;
+  }
+  .some-post-row .center-post {
+    top: 0;
+  }
+  footer.container-full {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer.container-full ul {
+    margin-bottom: 2em;
+  }
+  .presentation-text {
+    margin-bottom: 100px;
+  }
+}
+
 /* Smaller than mobile */
+@media (max-width: 400px) {
+  .not-mobile {
+    display: none;
+  }
+  .site-content {
+    margin-left: 0px;
+    width: 100vw;
+  }
+}
+
 /* Larger than mobile */
 /* Larger than tablet */
 /* Larger than desktop */

@@ -11,7 +11,7 @@ import Info from '../../assets/paradis-info.svg';
 import Cart from '../../assets/paradis-vogn.svg';
 
 const toolbar = () => (
-        <div className="menu">
+        <div className="menu not-mobile">
             <div className="menu-wrapper">
                 <ul className="menu-item-list">
                     <li className="menu-item">
