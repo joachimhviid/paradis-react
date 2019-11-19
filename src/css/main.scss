@@ -102,7 +102,7 @@ li p {
 .button-wrapper {
 	display: flex;
 	align-items: center;
-	min-height: 100%;
+	height: 300px;
 	margin-bottom: 50px;
 }
 
@@ -272,9 +272,105 @@ footer.container-full {
 /** Media Queries **/
 
 /* Smaller than desktop */
-@media (max-width: 980px) {
-	
+@media (max-width: 1025px) {
+	.container-full {
+		padding-left: 50px;
+		padding-right: 50px;
+	  }
+	  .not-mobile {
+		display: none;
+	}
+
+	.site-content {
+		margin-left: 0px;
+		width: 100vw;
+	}
+
+	.hero-img {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+			height: 600px;
+			width: auto;
+		}
+	}
+
+	h1.heading {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	.button-wrapper {
+		min-height: 0;
+		flex-direction: column;
+		a {
+			width: 100%;
+		}
+	}
+
+	.cream-slim {
+		height: 100%;
+		margin-bottom: 50px;
+	}
+
+	.text-row {
+		flex-direction: column;
+	}
+
+	.flex-center {
+		flex-direction: column;
+	}
+
+	.text-area.merged {
+		padding-left: 2em;
+	}
+
+	.ingredient-banner {
+		padding-top: 6vw;
+		right: 0;
+		top: 0;
+		width: 100%;
+		display: block;
+	}
+
+	.about-banner {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.some-button-wrapper {
+		margin-bottom: 3em;
+	}
+
+	.some-post-row {
+		flex-direction: column;
+		.some-post {
+			width: 100%;
+			margin: auto;
+			margin-bottom: 5vw;
+		}
+		.center-post {
+			top: 0;
+		}
+	}
+
+	footer.container-full {
+		flex-direction: column;
+		ul {
+			margin-bottom: 2em;
+		}
+	}
+
+	.presentation-text {
+		margin-bottom: 100px;
+	}
 }
+
+
 
 /* Smaller than tablet */
 @media (max-width: 750px) {
@@ -297,7 +393,7 @@ footer.container-full {
 		flex-direction: column;
 		align-items: center;
 		img {
-			max-height: 600px;
+			height: 600px;
 			width: auto;
 		}
 	}
